@@ -1,4 +1,4 @@
-# React Game Hub App
+# GameHub React App
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/DevRahimi/game-hub)
