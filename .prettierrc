@@ -13,7 +13,14 @@
   "trailingComma": "es5",
   "singleAttributePerLine": true,
   "sortImports": true,
-  "importOrder": ["^react(.*)", "antd/(.*)", "<THIRD_PARTY_MODULES>", "^[./]", "^.+\\.css$"],
+  "importOrder": [
+    "^react(.*)",
+    "@tanstack/(.*)",
+    "@chakra-ui/(.*)",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]",
+    "^.+\\.css$"
+  ],
   "importOrderSeparation": false,
   "importOrderSortSpecifiers": true,
   "importOrderCaseInsensitive": true
