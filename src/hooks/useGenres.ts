@@ -8,14 +8,14 @@ export interface Genre {
   image_background: string;
 }
 
-const apiClient = new APIClient<Genre>("/genre");
+const apiClient = new APIClient<Genre>("/genres");
 
 const useGenres = () =>
   useQuery({
     staleTime: 24 * 60 * 60 * 1000, // 24 hours
     queryKey: ["genres"],
     queryFn: apiClient.getAll,
-    initialData: { count: genres.length, results: genres, next: null },
+    initialData: genres,
   });
 
 export default useGenres;
