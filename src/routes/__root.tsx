@@ -117,7 +117,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             Deferred
           </Link>{" "}
           <Link
-            // @ts-expect-error
+            // @ts-expect-error demonstrates 404 route handling
             to="/this-route-does-not-exist"
             activeProps={{
               className: "font-bold",

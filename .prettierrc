@@ -12,7 +12,18 @@
   "singleQuote": false,
   "trailingComma": "es5",
   "singleAttributePerLine": true,
-  "importOrder": ["^react(.*)", "@tanstack/(.*)", "@chakra-ui/(.*)", "<THIRD_PARTY_MODULES>", "^[./]", "^.+\\.css$"],
+  "importOrder": [
+    "^react(.*)",
+    "^@eslint/(.*)",
+    "^typescript-eslint",
+    "^eslint-plugin-react-hooks",
+    "^eslint-plugin-react-refresh",
+    "@tanstack/(.*)",
+    "@chakra-ui/(.*)",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]",
+    "^.+\\.css$"
+  ],
   "importOrderSeparation": false,
   "importOrderSortSpecifiers": true,
   "importOrderCaseInsensitive": true

@@ -13,7 +13,9 @@
     "dev": "vinxi dev",
     "build": "vinxi build",
     "start": "vinxi start",
-    "format": "prettier . --write --config-precedence prefer-file .prettierrc"
+    "format": "prettier . --write --config-precedence prefer-file .prettierrc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.66.0",
@@ -30,16 +32,24 @@
     "vinxi": "0.5.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.28.0",
     "@tailwindcss/postcss": "^4.1.8",
+    "@tanstack/eslint-plugin-query": "^5.78.0",
+    "@tanstack/eslint-plugin-router": "^1.120.17",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^22.5.4",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
     "postcss": "^8.5.1",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.12",
     "tailwindcss": "^4.1.8",
     "typescript": "^5.7.2",
+    "typescript-eslint": "^8.34.0",
     "vite-tsconfig-paths": "^5.1.4"
   }
 }
