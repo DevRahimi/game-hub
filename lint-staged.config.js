@@ -3,5 +3,5 @@
  * @type {import('lint-staged').Configuration}
  */
 export default {
-  "*.{js,jsx,ts,tsx}": ["bun run format", "bun run lint:fix"],
+  "*.{js,jsx,ts,tsx}": ["bun run format", "bun run lint"],
 };

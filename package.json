@@ -6,7 +6,7 @@
   "engines": {
     "engine-strict": "true",
     "node": "22.x",
-    "bun": "1.x",
+    "bun": "1.2.x",
     "npm": "please-use-bun"
   },
   "scripts": {
