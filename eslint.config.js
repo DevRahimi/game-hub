@@ -8,7 +8,7 @@ import eslintRouter from "@tanstack/eslint-plugin-router";
 import globals from "globals";
 
 export default tseslint.config({
-  ignores: ["node_modules", ".output", ".vinxi"],
+  ignores: ["node_modules", ".output/", ".vinxi/"],
   extends: [
     eslintjs.configs.recommended,
     ...tseslint.configs.recommended,

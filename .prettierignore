@@ -1,8 +1,9 @@
-.output
-.vinxi
+.output/
+.vinxi/
 **/build
 **/public
 pnpm-lock.yaml
 bun.lock
-node_modules
+node_modules/
 routeTree.gen.ts
+dist/
