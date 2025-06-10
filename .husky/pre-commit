@@ -17,6 +17,13 @@
 # fi
 
 bun run lint-staged
+if [ $? -ne 0 ]; then
+  echo "\033[0;31mlint-staged failed. Commit aborted.\033[0m"
+  exit 1
+fi
+if [ $? -eq 0 ]; then
+  echo "\033[0;32mlint-staged passed.\033[0m"
+fi
 
 BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
 echo "\033[0;35mCommitting changes to branch: '$BRANCH_NAME'\033[0m"
